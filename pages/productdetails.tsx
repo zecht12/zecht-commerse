@@ -58,7 +58,7 @@ export default function ProductDetailsPage() {
             {/* product */}
             <div id="product" className="h-auto w-full bg-[#f5f5db] py-[125px] px-8">
                 <div className="flex md:flex-row flex-col items-start justify-center gap-8">
-                    <div className="h-full xl:w-[70%] md:w-[80%] sm:w-[90%] w-full border-[3px] border-[#2f7d32] p-8">
+                    <div className="h-full xl:w-[70%] md:w-[80%]  w-full border-[3px] border-[#2f7d32] p-8">
                         <div className="flex md:flex-row flex-col items-center justify-center gap-4">
                             <div className="h-full xl:w-[50%] md:w-[70%] sm:w-[90%] w-full">
                                 <p className="text-xl font-bold text-[#2f7d32] ">{head}</p>
@@ -96,7 +96,7 @@ export default function ProductDetailsPage() {
                     </div>
 
                     {/* Daftar (Categories) */}
-                    <div className="h-full 2xl:w-[30%] xl:w-[50%] md:w-[70%] sm:w-[90%] w-full">
+                    <div className="h-full xl:w-[30%] md:w-[20%] w-full">
                         <p className="text-2xl font-bold text-[#2f7d32]">DAFTAR</p>
                         <div className="w-full h-[3px] bg-[#2f7d32] my-2"></div>
                         <div className="py-2">

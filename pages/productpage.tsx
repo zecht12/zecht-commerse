@@ -18,11 +18,7 @@ export default function ProductPage() {
   const [currentCategory, setCurrentCategory] = useState("Product");
 
   const currentProducts =
-    currentCategory === "Baju"
-      ? Baju
-      : currentCategory === "Pupuk"
-        ? Pupuk
-        : Product;
+    currentCategory === "Baju" ? Baju : currentCategory === "Pupuk" ? Pupuk : Product;
 
   const startIndex = currentPage * ITEMS_PER_PAGE;
   const paginatedProduct = currentProducts.slice(
@@ -42,10 +38,10 @@ export default function ProductPage() {
     }
   };
 
-  const handleCategoryChange = (category: string) => {
+  const handleCategoryChange = (category:string) => {
     setCurrentCategory(category);
     setCurrentPage(0);
-  };
+  }
 
   return (
     <>
@@ -85,7 +81,7 @@ export default function ProductPage() {
       {/* product */}
       <div id="product" className="h-auto w-full bg-[#f5f5db] py-[125px] px-8">
         <div className="flex md:flex-row flex-col items-start justify-center gap-8">
-          <div className="h-full xl:w-[70%] md:w-[80%] sm:w-[90%] w-full gap-8">
+          <div className="h-full xl:w-[70%] md:w-[80%] w-full gap-8">
             <p className="text-2xl font-bold text-[#2f7d32]">PRODUCT KAMI</p>
             <div className="w-full h-[3px] bg-[#2f7d32] my-2"></div>
             <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
@@ -165,7 +161,7 @@ export default function ProductPage() {
           </div>
 
           {/* Daftar (Categories) */}
-          <div className="h-full xl:w-[30%] md:w-[50%] sm:w-[70%] w-full">
+          <div className="h-full xl:w-[30%] md:w-[20%] w-full">
             <p className="text-2xl font-bold text-[#2f7d32]">DAFTAR</p>
             <div className="w-full h-[3px] bg-[#2f7d32] my-2"></div>
             <div className="py-2">
