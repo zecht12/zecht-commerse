@@ -1,5 +1,5 @@
 import React from "react";
-import ProductPage from "@/components/pages/productpage";
+import ProductPage from "@/pages/productpage";
 
 export default function page() {
     return <ProductPage />;

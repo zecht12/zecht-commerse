@@ -1,4 +1,4 @@
-import NewsPage from '@/components/pages/newspage'
+import NewsPage from '@/pages/newspage'
 import React from 'react'
 
 export default function page() {

@@ -1,4 +1,4 @@
-import ProductDetailsPage from '@/components/pages/productdetails'
+import ProductDetailsPage from '@/pages/productdetails'
 import React from 'react'
 
 export default function page() {
