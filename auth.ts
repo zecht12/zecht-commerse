@@ -59,6 +59,7 @@ export const {handlers: { GET, POST },auth,signIn,signOut} = NextAuth({
                 session.user.image = token.picture??"";
                 session.user.isOAuth = token.isOAuth as boolean;
             }
+
             return session;
         },
         async jwt({ token }) {
