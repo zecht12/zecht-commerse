@@ -1,0 +1,7 @@
+{
+    "extensions.closeExtensionDetailsOnViewChange": false,
+    "doki.background.enabled": true,
+    "doki.background.anchor": "right",
+    "editor.experimental.asyncTokenizationVerification": true,
+    "doki.sticker.css": "z-index:100;background-position:100% 97%"
+}

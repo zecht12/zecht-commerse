@@ -5,6 +5,9 @@
      */
     export const publicRoutes = [
         "/",
+        "/product",
+        `/product/[id]`,
+        "/checkout",
         "/auth/new-verification",
     ];
     
@@ -32,4 +35,4 @@
      * The default redirect path after logging in
      * @type {string}
      */
-    export const DEFAULT_LOGIN_REDIRECT = "/home";
+    export const DEFAULT_LOGIN_REDIRECT = "/admin";
